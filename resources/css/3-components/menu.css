@@ -1,0 +1,15 @@
+/* ============================================================================
+ * # Components: Stats
+ * ============================================================================ */
+
+.menu-active {
+  background-color: color-mix(in oklab, var(--color-primary), transparent 75%);
+  border: 1px solid var(--color-primary);
+  margin: -1px;
+}
+
+.menu li:not(.menu-title, .disabled) label:not(.menu-active):hover {
+  background-color: color-mix(in oklab, var(--color-base-100), transparent 75%);
+  border: 1px solid var(--color-base-100);
+  margin: -1px;
+}

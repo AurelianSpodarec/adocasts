@@ -1,0 +1,58 @@
+/* ============================================================================
+ * # Foundation: Theme
+ * ============================================================================ */
+
+@theme {
+  --font-sans: 'Red Hat Display', sans-serif;
+  --font-mono: 'Red Hat Mono', monospace;
+  /* --color-base-title: oklch(93.53% 0.0592 304.85); */
+}
+
+@plugin "daisyui" {
+  /* themes: 'dark'; */
+}
+
+@plugin "daisyui/theme" {
+  name: 'night';
+  default: false;
+  prefersdark: true;
+  color-scheme: 'dark';
+
+  --color-base-100: oklch(0.26 0.068 287.4);
+  --color-base-200: oklch(0.23 0.056 287.5);
+  --color-base-300: oklch(16.8% 0.055 287.6);
+  --color-base-content: oklch(83% 0.039 288.4);
+
+  --color-primary: oklch(0.55 0.150 276.5);
+  --color-primary-content: oklch(0.93 0.048 275.7);
+
+  --color-secondary: oklch(80% 0.10 230.5);
+  --color-secondary-content: oklch(12% 0.03 276.9);
+
+  --color-accent: oklch(90% 0.08 180.6);
+  --color-accent-content: oklch(13% 0.033 350.1);
+
+  --color-neutral: oklch(0.26 0.068 287.4);
+  --color-neutral-content: oklch(86% 0.05 287.6);
+
+  --color-info: oklch(68% 0.15 237.2);
+  --color-info-content: oklch(0% 0 0);
+
+  --color-success: oklch(77% 0.13 182);
+  --color-success-content: oklch(15.5% 0.025 182);
+
+  --color-warning: oklch(82% 0.13 83);
+  --color-warning-content: oklch(15.5% 0.02 83);
+
+  --color-error: oklch(70% 0.17 13.2);
+  --color-error-content: oklch(13% 0.03 13.1);
+
+  --radius-selector: .5rem;
+  --radius-field: 0.5rem;
+  --radius-box: 1rem;
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+  --border: 1px;
+  --depth: 0;
+  --noise: 0;
+}

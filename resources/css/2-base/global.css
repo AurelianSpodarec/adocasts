@@ -1,0 +1,39 @@
+/* ============================================================================
+ * # Base: Global
+ * ============================================================================ */
+
+html,
+body {
+  background-color: var(--color-base-300);
+}
+
+body {
+  --section-spacing: theme('spacing.12') --mono: 0;
+  --casl: 0.5;
+  --wght: 400;
+  --slnt: 0;
+  --crsv: 0.5;
+  font-variation-settings: var(--mono), var(--casl), var(--wght), var(--slnt), var(--crsv);
+  overflow-x: hidden;
+
+  .italic {
+    --casl: 1;
+    --slnt: -15;
+  }
+
+  .mono {
+    --mono: 1;
+  }
+
+  .font-semibold {
+    --wght: 600;
+  }
+
+  .font-bold {
+    --wght: 700;
+  }
+
+  .font-black {
+    --wght: 800;
+  }
+}
