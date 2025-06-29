@@ -24,11 +24,11 @@
 /* ============================================================================
  * 3-components
  * ============================================================================ */
-@import "./accents.css";
-@import "./fades.css";
-@import "./footer.css";
-@import "./stats.css";
-@import "./unpoly.css";
+@import "./3-components/accents.css";
+@import "./3-components/fades.css";
+@import "./3-components/footer.css";
+@import "./3-components/stats.css";
+@import "./3-components/unpoly.css";
 
 /* ============================================================================
  * Cheat Styles
